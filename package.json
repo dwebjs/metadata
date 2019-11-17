@@ -1,37 +1,37 @@
 {
-  "name": "@dwebjs/metadata",
-  "description": "Library for dDrive-based metadata.",
-  "version": "1.0.0",
-  "contributors": [
-    "Jared Rice Sr. <jared@dpeeps.com>",
-    "Peeps Labs <labs@dpeeps.com>"
-  ],
-  "bugs": {
-    "url": "https://github.com/dwebjs/metadata/issues"
-  },
-  "dependencies": {
-    "@dwebjs/encoding": "dwebjs/encoding#master",
-    "toiletdb": "^1.4.1"
-  },
-  "devDependencies" {
-    "@dwebjs/ddrive": "dwebjs/ddrive#master",
-    "random-access-memory": "^3.1.1",
-    "standard": "^12.0.1",
-    "tape": "^4.10.1"
-  },
-  "homepage": "https://dwebs.io",
-  "keywords": [
-    "dweb",
-    "distributed-web",
-    "dweb-metadata"
-  ],
-  "license": "MIT",
-  "main": "index.js", 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dwebjs/metadata"
-  },
-  "scripts": {
-    "test": "standard && tape test/*.js"
-  }
+    "name": "@dwebjs/metadata",
+    "description": "Library for dDrive-based metadata.",
+    "version": "1.0.0",
+    "contributors": [
+        "Jared Rice Sr. <jared@dpeeps.com>",
+        "Peeps Labs <labs@dpeeps.com>"
+    ],
+    "bugs": {
+        "url": "https://github.com/dwebjs/metadata/issues"
+    },
+    "dependencies": {
+        "@dwebjs/encoding": "dwebjs/encoding#master",
+        "toiletdb": "^1.4.1"
+    },
+    "devDependencies": {
+        "@dwebjs/ddrive": "dwebjs/ddrive#master",
+        "random-access-memory": "^3.1.1",
+        "standard": "^12.0.1",
+        "tape": "^4.10.1"
+    },
+    "homepage": "https://dwebs.io",
+    "keywords": [
+        "dweb",
+        "distributed-web",
+        "dweb-metadata"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dwebjs/metadata"
+    },
+    "scripts": {
+        "test": "standard && tape test/*.js"
+    }
 }
